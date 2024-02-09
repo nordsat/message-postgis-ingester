@@ -1,1 +1,2 @@
 # message-postgis-ingester
+Subscribe to posttroll messages. The intention is to get posttroll messages with saved datasets in geotiff and use the information in this message and ingest this into a postgis database. At the same time a map file with all the available layers is written to be included in a larger map file. The database is then used by mapserver together with the map config files and the postgis database to provide OGS WMC with time support.
